@@ -1,0 +1,29 @@
+.box{
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+#static{
+    position: static;
+    
+}
+#relative{
+    position: relative;
+    top: 20px;
+    left: 90px;
+    
+}
+#fixed{
+    position: fixed;
+    top: 30px;
+    left: 120px;
+    
+}
+#absolute{
+    position: absolute;
+    top: 20px;
+    
+}

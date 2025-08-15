@@ -1,0 +1,18 @@
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #first{
+            margin: 5px 5px 5px 5px;
+            height: 50px;
+            width: 50px;
+            padding: 5px 5px 5px 5px;
+            background-color: blue;
+        }
+        #second{
+            margin: 50px 5px 5px 5px;
+            height: 50px;
+            width: 50px;
+            padding: 5px 5px 5px 5px;
+            background-color:rebeccapurple;
+        }
