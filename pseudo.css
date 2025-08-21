@@ -1,0 +1,28 @@
+.pseudo{
+    height: 25px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color:lightsalmon;
+
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 0s;
+}
+
+.pseudo:hover{
+    height: 30px;
+    width: 120px;
+    background-color: chartreuse;
+   
+}
+.pseudo:active{
+    height: 30px;
+    width: 120px;
+    background-color: darkturquoise;
+}

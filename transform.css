@@ -1,0 +1,59 @@
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 1s ease-in-out 1s;
+    -webkit-transition: 1s ease-in-out 1s;
+    -moz-transition: 1s ease-in-out 1s;
+    -ms-transition: 1s ease-in-out 1s;
+    -o-transition: 1s ease-in-out 1s;
+}
+
+#first:hover{
+    background-color: aqua;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+#second:hover{
+    background-color: greenyellow;
+    transform: rotatex(45deg);
+    -webkit-transform: rotatex(45deg);
+    -moz-transform: rotatex(45deg);
+    -ms-transform: rotatex(45deg);
+    -o-transform: rotatex(45deg);
+}
+#third:hover{
+    background-color: red;
+    transform: rotateY(50deg);
+    -webkit-transform: rotateY(50deg);
+    -moz-transform: rotateY(50deg);
+    -ms-transform: rotateY(50deg);
+    -o-transform: rotateY(50deg);
+}
+#fourth:hover{
+    background-color: darkorange;
+    transform:skewX(45deg);
+    -webkit-transform:skewX(45deg);
+    -moz-transform:skewX(45deg);
+    -ms-transform:skewX(45deg);
+    -o-transform:skewX(45deg);
+}
+#fifth:hover{
+    background-color: gold;
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+}
